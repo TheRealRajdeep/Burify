@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "parcel": "^2.9.3 @parcel/watc her-linux-x64-glibc"
+    "parcel": "^2.9.3"
     
   },
   "scripts": {
