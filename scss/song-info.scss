@@ -1,0 +1,48 @@
+._song-info {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 70%;
+    padding-left: 12px;
+    border: 0.5px transparent;
+    border-radius: 5px;
+}
+#track-info:hover {
+    background-color: #4f4f4f;
+}
+h3 {
+    font-size: 12px;
+    font-family: "helvetica";
+    color: white;
+}
+h3:hover {
+    text-decoration: underline;
+}
+p._artist-name {
+    font-size: 10px;
+    font-family: "helvetica";
+    color: #ccc;
+    margin-top: 3px;
+}
+p._artist-name:hover {
+    text-decoration: underline;
+    color: white;
+}
+#cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+._explicit {
+    width: 15px;
+    height: 15px;
+}
+._track-rated {
+    display: flex;
+    margin-right: 10px;
+    gap: 5%;    
+}
+p._track-length {
+    color: #ccc;
+}

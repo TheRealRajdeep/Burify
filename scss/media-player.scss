@@ -1,0 +1,98 @@
+@import "song-info";
+._media-player-container {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #121212;
+    padding: 25px;
+}
+audio {
+    display: none;
+}
+
+#seek--bar {
+    margin-top: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 30rem;
+    height: 5px;
+    cursor: pointer;
+
+}
+
+#seek--bar::-webkit-slider-runnable-track {
+    
+    border-radius: 2px;
+}
+#seek--bar::-webkit-slider-thumb {
+   appearance: none;
+ 
+    
+}
+
+._song-info {
+    width: 80%;
+}
+._media-elements {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: center;
+}
+._track-length {
+    display: flex;
+    justify-content: center;
+    
+}
+p._current-time {
+    color: #ccc;
+}
+p._track-len {
+    color: #ccc;
+}
+._super-controls {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 100px;
+}
+._misc-elements {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20%;
+    align-items: center;
+}
+.volume-elements {
+    display: flex;
+    gap: 10%;
+    margin-top: 1px;
+    align-items: center;
+}
+#volume-control {
+    margin-top: 5px;
+    width: 5rem;
+    height: 5px;
+}
+#volume-control::-webkit-slider-runnable-track {
+    
+    border-radius: 2px;
+    
+}
+#volume-control::-webkit-slider-thumb {
+
+    appearance: none;
+    position: static;
+}
+i {
+    color: #ccc;
+}
+i:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}

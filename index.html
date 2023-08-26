@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burify!</title>
+    <link
+      rel="icon"
+      href="project media/images and icons/Cerdito_Valiente___Buri_buri_Zaemon-removebg-preview.png"
+      type="img-logo"
+    />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <script src="https://kit.fontawesome.com/034a4a2c03.js" crossorigin="anonymous"></script>
+    <script defer src="js/controller.js" type="module"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="">
+        <div class="_web-logo" href="">
+          <ul>
+            <li>
+              <img
+                src="project media/images and icons/Cerdito_Valiente___Buri_buri_Zaemon-removebg-preview.png"
+                alt="website-logo"
+              />
+            </li>
+          </ul>
+          <h1>Burify!</h1>
+        </div>
+      </a>
+      <div class="_search-bar">
+        <input
+          type="search"
+          placeholder="Search your music"
+          class="music-search"
+        />
+      </div>
+      <div class="_my-socials">
+        <!-- <a href ="https://www.linkedin.com/in/rajdeepjadeja2806/"><img src = "/project media/images and icons/icons8-linkedin-50 (2).png"></a>
+                        <a href = "https://twitter.com/therealrajdeep"><img src = "project media/icons8-twitter-50.png"></a> -->
+      </div>
+    </nav>
+    <div class="_super-container">
+      <div class="_liked-container">
+        <div class="_liked-songs">
+          <h2>Your Liked Songs:</h2>
+          <p>Liked songs will appear here!</p>
+          <!-- <div class="_song-info" id = "_liked-track">
+            <img src = "project media/images and icons/1659825.webp" id = "cover">
+            <div>
+              <h3>Freddy Krueger</h3>
+              <div class = "_track-rated">
+                <img src = "project media/images and icons/explicit-icon.png" class = "_explicit">
+                <p class = "_artist-name">637Godwin</p>
+              </div>
+              
+            </div>
+        </div> -->
+        </div>
+      </div>
+      <div class="_search-results">
+        <h2>Search Results:</h2>
+        <p>Start by searching your music</p>
+        <div class="_song-info" id = "track-info">
+        
+          <img src = "project media/images and icons/1659825.webp" id = "cover">
+          <div>
+            <h3>Freddy Krueger</h3>
+            <div class = "_track-rated">
+              <img src = "project media/images and icons/explicit-icon.png" class = "_explicit">
+              <p class = "_artist-name">637Godwin</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-heart"></i>
+          <p class = "_track-length">2:06</p>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <div class="_media-player-container">
+        <div class="_song-info">
+            <!-- <img id = "border"> -->
+            <img src = "project media/images and icons/Glitch.jpg" id = "cover">
+            <div>
+              <h3>Glitch</h3>
+              
+              <p class = "_artist-name">Martin Garrix</p>
+            </div>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <audio controls controlslist="nodownload noplaybackrate" src = "project media/songs/Martin Garrix & Julian Jordan - Glitch (Official Video).mp4">
+        </audio>  
+          <div class="_super-controls">
+            <div class="_media-controls">
+              <div class="_track-length">
+                <p class = "_current-time">-:--</p>
+                <input type="range" value = "0" id="seek--bar" />
+                <p class = "_track-len">-:--</p>
+              </div>
+              <div class="_media-elements">
+                <i class="fa-solid fa-backward-fast"></i>
+                <i id = "#music-control" class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward-fast"></i>
+                
+              </div>
+            </div>
+          </div>
+          <div class="_misc-elements">
+            <i id = "loop-track" class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-music"></i>
+            <div class="volume-elements">
+              <i id = "volume-controls" class="fa-solid fa-volume-high"></i>
+              <input type = "range" value = "" id = "volume-control">
+            </div>
+          </div>
+      </div>
+      <p class = "_credentials">App created by <a id = "credits" href = "https://twitter.com/therealrajdeep">Rajdeep Jadeja</a></p>
+    </footer>
+  </body>
+</html>
